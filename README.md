@@ -1,2 +1,3 @@
 # web-mqtt-client-demo
-WiiHey DaaS Platform MQTT Client on Web (Browser)
+
+Check out the [Live Demo](https://iot.wiihey.com/web-mqtt-client-demo/)
