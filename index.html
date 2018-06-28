@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>WiiHey DaaS Web Client </title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="https://cdn.bootcss.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="http://www.wiihey.com/en/index.html">WiiHey</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="https://github.com/junfenggeng/web-mqtt-client-demo">GitHub
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.wiihey.com/zh-CN/applications/solar-pv-module-level-monitoring.html">Document</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h4 id="state"> Connecting to WiiHey DaaS Platform... </h4>
+    <table class="table" id="messages">
+      <tr id="no-messages"><td>No Messages</td></tr>
+    </table>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+
+  <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
