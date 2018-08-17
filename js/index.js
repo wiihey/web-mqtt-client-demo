@@ -37,10 +37,10 @@ $(document).ready(function() {
     msg_obj = JSON.parse(message);
     msg_str = JSON.stringify(msg_obj, null, 2);
 
-    t = new Date(msg_obj.Timestamp * 1000);
+    t = new Date(msg_obj.timestamp * 1000);
 
     console.log("Received: " + msg_str);
-    console.log(msg_obj.Timestamp);
+    console.log(msg_obj.timestamp);
 
     $("#messages").append(
       "<tr>" +
@@ -48,7 +48,7 @@ $(document).ready(function() {
         t.toLocaleTimeString() +
         "</td>" +
         "<td>" +
-        msg_obj.DeviceID +
+        msg_obj.device +
         "</td>" +
         "<td><pre>" +
         msg_str +
